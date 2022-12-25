@@ -1,0 +1,14 @@
+name: shell Commands
+
+on: [push]   // it represents on which event workflows need to run
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest  // on whjich OS we need to run the job.
+    steps:
+      - name: echo a string
+        run: echo "Hello World"
+      - name: Multiple Scripts
+        run: |
+          node -v
+          npm -v 
