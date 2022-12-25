@@ -7,7 +7,7 @@ jobs:
   # on whjich OS we need to run the job.
     runs-on: ubuntu-latest  
     steps:
-      - name: echo a string
+      - name: eccho a string
         run: echo "Hello World"
       - name: Multiple Scripts
       # Here | will use to run the multiple shell commands.
